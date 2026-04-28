@@ -23,9 +23,6 @@ const PortfolioHero: React.FC = () => {
       <div className="container mx-auto px-6 md:px-12 text-center">
         <div className="animate-fade-in-up">
           <div className="relative inline-block mb-4">
-            <span className="absolute -top-10 -left-4 md:-left-12 text-4xl md:text-5xl font-script text-primary transform -rotate-6 opacity-80 z-0">
-              Creative
-            </span>
             <h1 className="relative z-10 text-5xl md:text-7xl font-black text-neutral-900 tracking-tighter leading-tight uppercase">
               Mohammad Rafli Ravanelli
             </h1>

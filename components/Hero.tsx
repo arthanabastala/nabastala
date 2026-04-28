@@ -21,15 +21,9 @@ const Hero: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-20">
       <div className="container mx-auto px-6 md:px-12 text-center">
-        <div className="animate-fade-in-up">
-          <span className="inline-block py-1 px-4 rounded-full bg-primary/10 text-primary text-xs font-bold tracking-widest mb-6">
-            PORTFOLIO 2025
-          </span>
-          <div className="relative inline-block mb-6">
-            <span className="absolute -top-10 -left-12 md:-left-20 text-5xl md:text-7xl font-script text-primary transform -rotate-6 opacity-80 z-0">
-              Design
-            </span>
-            <h1 className="relative z-10 text-5xl md:text-7xl font-black text-neutral-900 tracking-tighter mb-4 leading-tight uppercase">
+        <div className="animate-fade-in-up flex flex-col items-center">
+          <div className="relative inline-block mb-6 max-w-4xl w-full">
+            <h1 className="relative z-10 text-5xl md:text-7xl lg:text-8xl font-black text-neutral-900 tracking-tighter mb-4 leading-tight uppercase">
               Mohammad Rafli <br className="hidden md:block" /> Ravanelli
             </h1>
           </div>
