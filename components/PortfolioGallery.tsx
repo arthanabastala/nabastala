@@ -3,7 +3,7 @@ import Section from './ui/Section';
 
 const PortfolioGallery: React.FC = () => {
   const smkWorks = [
-    { src: '/mq-event-banner.webp', alt: 'Event Banner for SMK Madinatulquran', title: 'Event Banner' },
+    { src: '/Event-Poster.webp', alt: 'Event Banner for SMK Madinatulquran', title: 'Event Banner' },
     { src: '/mq-instagram-story.webp', alt: 'Instagram Story design for SMK Madinatulquran', title: 'Instagram Story' },
     { src: '/mq-documentation.webp', alt: 'Event documentation for SMK Madinatulquran', title: 'Documentation' },
     { src: '/mqfest-banner.webp', alt: 'MQFest Celebration Event Promotional Poster', title: 'MQFest Banner' }
@@ -88,7 +88,7 @@ const PortfolioGallery: React.FC = () => {
 
              <div className="mt-4 aspect-[3/1] bg-neutral-100 rounded-xl border border-neutral-100 shadow-sm relative group overflow-hidden">
                 <img
-                    src="/mq-event-banner.webp"
+                    src="/mqfest-banner.webp"
                     alt="Main Event Banner"
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
