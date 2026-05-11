@@ -3,7 +3,7 @@ import Section from './ui/Section';
 
 const PortfolioGallery: React.FC = () => {
   const smkWorks = [
-    { src: '/Event-Poster.png', alt: 'Event Banner for SMK Madinatulquran', title: 'Event Banner' },
+    { src: '/Event-Poseter.png', alt: 'Event Banner for SMK Madinatulquran', title: 'Event Banner' },
     { src: '/mq-instagram-story.webp', alt: 'Instagram Story design for SMK Madinatulquran', title: 'Instagram Story' },
     { src: '/mq-documentation.png', alt: 'Event documentation for SMK Madinatulquran', title: 'Documentation' },
     { src: '/mqfest-poster.png', alt: 'MQFest Celebration Event Promotional Poster', title: 'MQ Poster' }
